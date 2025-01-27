@@ -1,0 +1,76 @@
+/* Общие стили */
+body {
+    font-family: 'Garamond', serif;
+    background-color: #1a1a1a; /* Тёмный фон */
+    color: #e0e0e0; /* Светлый текст */
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    background: rgba(30, 30, 30, 0.8);
+    padding: 20px;
+    border-bottom: 3px solid #ff4747; /* Красная граница */
+}
+
+h1 {
+    font-size: 3em;
+    color: #ff4747; /* Яркий цвет заголовка */
+    text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.1);
+}
+
+.container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    background: rgba(50, 50, 50, 0.9); /* Полупрозрачный фон */
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.7);
+}
+
+.relationship {
+    margin: 15px 0;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.05); /* Очень лёгкий белый фон */
+    border-left: 3px solid #ffcc00; /* Золотистая граница */
+    border-radius: 8px;
+    transition: background 0.3s ease;
+}
+
+.relationship:hover {
+    background: rgba(255, 255, 255, 0.1); /* При наведении */
+}
+
+h2 {
+    font-size: 2em;
+    color: #ffcc00; /* Золотистый цвет заголовка секции */
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.5;
+}
+
+/* Стили для подвала */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #333;
+    color: #fff;
+    position: relative;
+    margin-top: 20px;
+}
+.button {
+    background-color: #444;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.button:hover {
+    background-color: #666;
+}

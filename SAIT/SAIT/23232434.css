@@ -1,0 +1,74 @@
+/* Общие стили */
+body {
+    font-family: 'Garamond', serif;
+    background-color: #1a1a1a; /* Тёмный фон */
+    color: #e0e0e0; /* Светлый текст */
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    background: rgba(30, 30, 30, 0.8);
+    padding: 20px;
+    border-bottom: 3px solid #ff4747; /* Красная граница */
+}
+
+h1 {
+    font-size: 4em;
+    color: #ff4747; /* Яркий цвет заголовка */
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+h2 {
+    font-size: 2em;
+    color: #ffcc00; /* Золотистый цвет подзаголовка */
+}
+
+.container {
+    padding: 20px;
+    background-size: cover;
+    opacity: 0.9; /* Полупрозрачный фон */
+}
+
+.fact {
+    margin: 40px 0;
+    padding: 20px;
+    background: rgba(30, 30, 30, 0.7); /* Полупрозрачный фон для фактов */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
+}
+
+h3 {
+    font-size: 2em;
+    color: #ff4747; /* Красный цвет для заголовков фактов */
+    text-transform: uppercase; /* Все заглавные буквы */
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2em;
+}
+/* Стили для подвала */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.button {
+    background-color: #444;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.button:hover {
+    background-color: #666;
+}
